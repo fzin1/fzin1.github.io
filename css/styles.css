@@ -26,12 +26,12 @@
 
 #container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     color: var(--main-text-color);
 }
 
 #bio-container{
-    flex: 1 1 80%;
+    flex: 1 1 20%;
     min-height: 100vh;
     background-color: var(--bio-bg-color);
     text-align: center;
@@ -40,7 +40,7 @@
 }
 
 #about-container{
-    flex: 1 1 20%;
+    flex: 1 1 80%;
     min-height: 100%;
     background-color: var(--about-bg-color);
     padding: 50px;
