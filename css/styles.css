@@ -26,7 +26,7 @@
 
 #container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     color: var(--main-text-color);
 }
 
@@ -41,6 +41,7 @@
 }
 
 #about-container{
+    display: flex;
     flex: 1 1 80%;
     min-height: 100vh;
     background-color: var(--about-bg-color);
