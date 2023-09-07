@@ -41,7 +41,7 @@
 
 #about-container{
     flex: 1 1 80%;
-    min-height: 100%;
+    min-height: 100vh;
     background-color: var(--about-bg-color);
     padding: 50px;
 }
