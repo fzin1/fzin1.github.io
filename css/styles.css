@@ -1,4 +1,4 @@
-/* Reset */
+/* Reset 
 * {
     padding: 0;
     margin: 0;
@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-/* Variables */
+/* Variables 
 
 :root {
     --main-color: #54b689;
@@ -17,7 +17,7 @@
     --about-bg-color: #111821;
 }
 
-/* General */
+/* General 
 .highlight{
     color: var(--main-color)
 }
