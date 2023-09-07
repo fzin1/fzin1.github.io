@@ -25,9 +25,8 @@
 /* Containers */
 
 #container {
-    display: flex;
+    display: block;
     flex-direction: row;
-    flex-flow: row wrap;
     color: var(--main-text-color);
 }
 
