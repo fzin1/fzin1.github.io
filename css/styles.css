@@ -31,7 +31,7 @@
 }
 
 #bio-container{
-    flex: 1 1 20%;
+    flex: 1 1 55%;
     min-height: 100vh;
     background-color: var(--bio-bg-color);
     text-align: center;
@@ -67,7 +67,7 @@
     margin-bottom: 25px;
 }
 
-#social-container{
+#social-container {
     display: flex;
     justify-content: center;
     list-style: none;
@@ -76,6 +76,7 @@
     padding-bottom: 25px;
 }
 
+/*
 #social-container li{
     flex: 1 1 0;
     min-width: 60px;
@@ -108,3 +109,4 @@
     margin-right: 5px;
     max-height: 20px;
 }
+*/
