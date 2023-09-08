@@ -68,7 +68,6 @@
 }
 
 #social-container {
-    display: flex;
     justify-content: center;
     list-style: none;
     border-bottom: 1px solid var(--border-color);
@@ -76,13 +75,13 @@
     padding-bottom: 25px;
 }
 
-
+/*
 #social-container li{
     flex: 1 1 0px;
     min-width: 60px;
 }
 
-/*
+
 #social-container li a{
     color: var(--main-color);
     font-size: 30px;
