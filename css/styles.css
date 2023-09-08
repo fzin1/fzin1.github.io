@@ -18,7 +18,7 @@
 }
 
 /* General */
-.highlight{
+.highlight {
     color: var(--main-color)
 }
 
@@ -49,7 +49,7 @@
 /* bio-container */
 
 #bio-container h2{
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 #bio-container p{
@@ -68,6 +68,7 @@
 }
 
 #social-container {
+    display: flex;
     justify-content: center;
     list-style: none;
     border-bottom: 1px solid var(--border-color);
@@ -75,14 +76,14 @@
     padding-bottom: 25px;
 }
 
-/*
+
 #social-container li{
-    flex: 1 1 0px;
-    min-width: 60px;
+    flex: 1 1 0;
+    max-width: 60px;
 }
 
 
-#social-container li a{
+#social-container li a {
     color: var(--main-color);
     font-size: 30px;
 }
@@ -94,19 +95,18 @@
 
 #email-container ion-icon,
 #email-container a {
-    flex: 1 1 0;
+  flex: 1 1 0;
 }
 
-#email-container a{
+#email-container a {
     color: var(--main-text-color);
     text-decoration: none;
     max-width: 225px;
 }
 
-#email-container ion-icon{
+#email-container ion-icon {
     color: var(--main-color);
     font-size: 20px;
     margin-right: 5px;
-    max-height: 20px;
-}
-*/
+    max-width: 20px;
+  }
